@@ -102,7 +102,6 @@ const payLoad = () => {
     total += somaPagamento(price, payment);
   }
   total += (total * (0.1));
-  console.log(total);
   return total;
 };
 
